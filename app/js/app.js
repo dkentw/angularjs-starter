@@ -8,7 +8,6 @@ var myApp = angular.module('myApp',[
 
 //angular.module('myApp', ['ngRoute']).
 myApp.config(function($routeProvider, $locationProvider) {
-  console.log('config');
   $routeProvider.
     when('/home', { 
       templateUrl: 'templates/home.html', 
